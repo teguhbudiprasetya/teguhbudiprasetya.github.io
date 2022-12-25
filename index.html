@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teguh Prasetya</title>
+    <link rel="shortcut icon" href="assets/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+    <script src="https://kit.fontawesome.com/860cd84d33.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="head">
+        <header>
+            <!-- <div class="logo">Soft Landing</div> -->
+            <div class="hamburger">
+                <i id="icon" class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
+            </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="#home" id="nav-home" class="active">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#about" id="nav-about">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="#skills" id="nav-skills" href="">SKILLS</a>
+                    </li>
+                    <li>
+                        <a href="#project" id="nav-project">PROJECT</a>
+                    </li>
+                    <li>
+                        <a href="#contact" id="nav-contact">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div id="home" class="jumbotron" data-parallax="scroll" data-image-src="assets/jumbotron.jpg">
+        <img class="profile" src="assets/profilephoto.jpg" alt="">
+        <div class="profile-text">
+            <p id="name">A. Teguh Budi Setya Prasetya</p>
+            <p id="job">I'm a <span id="specialist"></span></p>
+            <!-- <small id="specialist"></small> -->
+        </div>
+    </div>
+    <section id="about" class="about">
+        <div class="about-title">
+            <p>ABOUT ME</p>
+        </div>
+        <div class="about-text" >
+            <!-- <p id="aboutme">About Me</p> -->
+            <p><span class="petik">"</span> I have 1 year of experience in web development and 2+ years of general coding experience. I also have basic knowledge in UI/UX design and back-end development using codeigniter. I am also interested in python especially data science. Currently I am an undergraduate student in Informatics Engineering at Trunojoyo Madura University.<span class="petik">"</span></p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="skills-title">
+            <p>SKILL</p>
+        </div>
+        <div class="line"></div>
+        <div class="skills-list">
+            <div class="web">
+                <span style="color: #fefefe;">
+                    <i class="fas fa-laptop-code fa-7x"></i>
+                </span>
+                <div class="detail">
+                    WEB DEVELOPMENT
+                </div>
+            </div>
+            <div class="figma">
+                <span style="color: #fefefe;">
+                        <i class="fas fa-palette fa-7x"></i>
+                </span>
+                <div class="detail">
+                    UI/UX DESIGN
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="project">
+        <div class="project-title">
+            <p>PROJECT</p>
+        </div>
+        <div class="line"></div>
+        <div class="project-list">
+            <div class="pro-1">
+                <img src="assets/pro-1.png" alt="">
+                <div class="project-detail">
+                    <p class="title-detail">Student Attendance</p>
+                    <p class="desc-detail">Website for student attendance with QR scanning and face photo verification. There are 2 roles, namely admin and lecturer</p>
+                    <div class="project-tag">
+                        <div class="tag">
+                            Codeigniter 4
+                        </div>
+                        <div class="tag">
+                            Python
+                        </div>
+                        <div class="tag">
+                            MySQL
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pro-2">
+                <img src="assets/pro-2.png" alt="">
+                <div class="project-detail">
+                    <p class="title-detail">LBB Rumah Tosca</p>
+                    <p class="desc-detail">Course service website and admin dashboard to manage course administration</p>
+                    <div class="project-tag">
+                        <div class="tag">
+                            Codeigniter 4
+                        </div>
+                        <div class="tag">
+                            MySQL
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pro-3">
+                <img src="assets/pro-3.png" alt="">
+                <div class="project-detail">
+                    <p class="title-detail">Informart</p>
+                    <p class="desc-detail">There are 3 roles for an e-commerce website, namely admin, seller and user</p>
+                    <div class="project-tag">
+                        <div class="tag">
+                            Native
+                        </div>
+                        <div class="tag">
+                            MySQL
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project-list pl-2">
+            <div class="pro-4">
+                <img src="assets/pro-4.png" alt="">
+                <div class="project-detail">
+                    <p class="title-detail">E-Legalisir</p>
+                    <p class="desc-detail">School website to provide services to students who wish to obtain digital legalization. There are 2 roles, namely admin and student</p>
+                    <div class="project-tag">
+                        <div class="tag">
+                            Native
+                        </div>
+                        <div class="tag">
+                            MySQL
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-title">
+            <p>GET IN TOUCH</p>
+        </div>
+        <div class="line"></div>
+        <div id="content">
+            <div class="contact-content">
+                <div>
+                    <p style="margin-bottom: 10px;">
+                        <span style="color: #ffffff;">
+                            <i class="fas fa-map-marker-alt fa-2x"></i>
+                        </span>
+                    </p>
+                    <p>
+                        <span style="color: #ffffff;">
+                            <i class="fas fa-mobile-android fa-2x"></i>
+                        </span>
+                    </p>
+                    <p style="margin-top: 10px;">
+                        <span id="env" style="color: #ffffff; font-size: 11px;">
+                            <i class="fas fa-envelope fa-2x"></i>
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <div class="contact-content-end">
+                    <p>
+                        Lamongan, East Java Province, Indonesia
+                    </p>
+                    <p style="margin:  18px 0 18px 0; ">
+                        +62 823-3856-4527
+                    </p>
+                    <p>
+                        a.tguhbdistyaprasetya@gmail.com
+                    </p>
+
+            </div>
+        </div>
+    </section>
+    <section id="medsos">
+        <div class="box">
+            <a>Social Media</a>
+            <a href="https://github.com/teguhprasetya" target="_blank"> 
+                <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/ateguhbudisetyaprasetya/" target="_blank">
+                <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.instagram.com/a.tguhbdistyaprasetya/" target="_blank">
+                <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+            </a>
+        </div>
+    </section>
+    <footer>
+        <p style="text-align: center; margin-bottom: 30px;">- My Quote -</p>
+        <p>"Hidup adalah sebuah distraksi, sekarang hanyalah tentang bagaimana kita memanfaatkan kesempatan yang tidak akan kita sesali disaat kita sudah tidak punya waktu untuk kembali."</p>
+    </footer>
+    
+    <script src="js.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    
+    
+    <script>
+        var app = document.getElementById('specialist');
+
+        var typewriter = new Typewriter(app, {
+        loop: true,
+        delay: 75,
+        });
+
+        typewriter
+        .pauseFor(40)
+        .typeString('Web Developer')
+        .pauseFor(300)
+        .deleteChars(13)
+        .typeString('Freelancer')
+        .pauseFor(1000)
+        .start();
+    </script>
+    
+</body>
+</html>
